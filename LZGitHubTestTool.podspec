@@ -1,11 +1,13 @@
+
 Pod::Spec.new do |s|
-  s.name         = "LZGithubTestTool"
+  s.name         = "LZGitHubTestTool"
   s.version      = "1.0.0"
-  s.ios.deployment_target = '8.0'
-  s.summary      = "A test project"
+  s.ios.deployment_target = '9.0'
+  s.osx.deployment_target = '10.8'
+  s.summary      = "a test tool"
   s.homepage     = "https://github.com/LingliZ/LZGithubTestTool"
   s.license      = "MIT"
-  s.author             = { "Lingli Z" => "13161995375@163.com" }
+  s.author             = { "LingliZ" => "13161995375@163.com" }
   s.social_media_url   = "http://weibo.com/exceptions"
   s.source       = { :git => "https://github.com/LingliZ/LZGithubTestTool.git", :tag => s.version }
   s.source_files  = "LZGithubTestTool"
